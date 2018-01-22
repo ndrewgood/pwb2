@@ -13,6 +13,10 @@ body{
   height: 100vh;
 }
 
-.nav {
+.nav-container {
   background-color: blue;
+}
+
+.nav>ul>li>a {
+  color: white;
 }
