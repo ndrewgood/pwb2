@@ -48,11 +48,12 @@ body{
 .navbar .navbar-collapse {
   text-align: center;
 }
-.nav-item{
-  font-family: 'Open Sans', sans-serif;
-}
-.nav-item{
+
+.nav-item .nav-link{
   padding-bottom: 8px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-decoration: none;
 }
 .flex-column{
   padding-top: 50px;
