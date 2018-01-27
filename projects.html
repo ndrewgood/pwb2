@@ -1,4 +1,18 @@
 ---
 layout: default
 ---
-<p>project page</p>
+
+<div class="projects-container">
+  <h1>*Projects</h1>
+  <ul>
+    {% for projects in site.posts%}
+      <li>
+        <a href="{{site.baseurl}}{{projects.url}}">
+        <p class="projects-title" >{{ projects.title }}</p>
+        <p class="projects-meta">{{ projects.meta }}</p>
+        <p class="projects-description">{{ projects.description }}</p>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

@@ -114,3 +114,92 @@ body{
   margin-left: 10px;
   margin-right: 10px;
 }
+
+.projects-container{
+  margin-left: 30px;
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: none;
+}
+
+.projects-container>h1{
+  font-weight: 900;
+  font-size: 40px;
+  animation: fontcolorchange 20s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes fontcolorchange
+{
+  0%   {color: #09fac1;}
+  50%   {color: #00a9ff;}
+  100% {color: #09fac1;}
+}
+
+.projects-container>ul{
+  margin-left: 40px;
+  margin-top: 40px;
+  list-style: none;
+}
+
+.projects-container>ul>li{
+  padding-bottom: 15px;
+}
+
+.projects-title{
+  color:white;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.projects-meta{
+  color: #537A7A;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: -15px;
+}
+
+.projects-description{
+  color: #537A7A;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: -15px;
+}
+
+.project-back{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 15px;
+  color: #537A7A;
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 30px;
+}
+
+.project-content{
+  margin-left: 100px;
+  margin-top: 100px;
+  padding-right: 80px;
+}
+
+.project-title{
+  font-family:  'Roboto Mono', monospace;
+  font-weight: 900;
+  font-size: 50px;
+  animation: fontcolorchange 20s;
+  animation-iteration-count:infinite;
+}
+
+.project-meta{
+  font-family:  'Roboto Mono', monospace;
+  font-style: italic;
+  font-size: 20px;
+  color: #537A7A;
+}
+
+.project-time{
+  font-family:  'Roboto Mono', monospace;
+    font-style: italic;
+    font-size: 15px;
+  color: #537A7A;
+  margin-top: -10px;
+}
