@@ -77,7 +77,40 @@ body{
 }
 
 #bm {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border: 2px solid white;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.index-text{
+  display: table;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight:900;
+  text-align: center;
+}
+
+.index-index>h1{
+  font-size: 50px;
+}
+
+.index-index>h2{
+  font-size: 35px;
+}
+
+.sm-icons{
+  /* background-color: red; */
+  width: 180px;
+  margin: 0 auto;
+}
+
+.sm-icon{
+  background-color: blue;
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
