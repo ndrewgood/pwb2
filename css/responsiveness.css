@@ -90,6 +90,9 @@ title: CSS stylesheet
 }
 
 @media (max-width:375px){
+  .project-content{
+    margin-top: 40px;
+  }
   .project-markdown>p{
     font-size: .8rem;
   }
