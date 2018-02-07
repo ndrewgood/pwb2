@@ -32,7 +32,7 @@ title: CSS stylesheet
   }
   .project-content{
     margin-left: 50px;
-    margin-top: 100px;
+    margin-top: 80px;
   }
   .project-back{
     margin-left: 15px;
@@ -52,6 +52,10 @@ title: CSS stylesheet
 }
 
 @media (max-width:425px){
+  .main-container{
+    padding: 0px 30px 30px 30px;
+  }
+
   #bm{
     margin-top: 50px;
   }
@@ -66,6 +70,7 @@ title: CSS stylesheet
   .project-content{
     margin-left: 20px;
     padding-right: 10px;
+    margin-top: 50px;
   }
   .project-title{
     font-size: 40px;
