@@ -2,11 +2,17 @@
 title: CSS stylesheet
 ---
 
+/* Welcome to my CSS!!! */
+/* feel free to look at what i wrote :) */
+/* with love, Andrew */
+/*        :*             */
+
 body{
   background-color: black;
   color: white;
   overflow-x: hidden;
 }
+
 ::-moz-selection { /* Code for Firefox */
   animation: highlightcolorchange 20s;
   animation-iteration-count:infinite;
@@ -47,7 +53,8 @@ body{
 }
 
 .fa-bars {
-  color: white
+  color: white;
+  outline: none;
 }
 
 .top-nav-custom {
@@ -224,8 +231,7 @@ body{
     font-size: 30px;
     background-color: black;
     border: 0px;
-    animation: fontcolorchange 20s;
-    animation-iteration-count:infinite;
+    color: #537A7A;
     position: fixed;
     font-family: 'Roboto Mono', monospace;
     margin-left: 10px;

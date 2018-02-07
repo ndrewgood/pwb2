@@ -1,0 +1,49 @@
+---
+title: CSS stylesheet
+---
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+/* @media (min-width: @screen-sm-min) { ... } */
+
+/* Medium devices (desktops, 992px and up) */
+/* @media (min-width: @screen-md-min) { ... } */
+
+/* Large devices (large desktops, 1200px and up) */
+/* @media (min-width: @screen-lg-min) { ... } */
+
+/* Small devices (tablets, 768px and down) */
+/* @media (max-width: @screen-sm-min) { ... } */
+
+/* Medium devices (desktops, 992px and down) */
+/* @media (max-width: @screen-md-min) { ... } */
+
+/* Large devices (large desktops, 1200px and down) */
+/* @media (max-width: @screen-lg-min) { ... } */
+
+@media (max-width: 768px) {
+  .index-text>h1{
+    font-size: 40px;
+  }
+  .index-text>h2{
+    font-size: 20px;
+  }
+}
+
+@media (max-width:1024px){
+  .projects-container>ul{
+    margin-left: 0px;
+  }
+  .projects-container>ul>li{
+    padding-left: 0px;
+  }
+}
+
+@media (max-width:425px){
+  .projects-container>ul{
+    margin-left: -20px;
+  }
+
+}
