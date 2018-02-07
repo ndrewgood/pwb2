@@ -30,6 +30,16 @@ title: CSS stylesheet
   .index-text>h2{
     font-size: 20px;
   }
+  .project-content{
+    margin-left: 50px;
+    margin-top: 100px;
+  }
+  .project-back{
+    margin-left: 15px;
+  }
+  #top-button{
+    margin-left: 0px;
+  }
 }
 
 @media (max-width:1024px){
@@ -42,8 +52,50 @@ title: CSS stylesheet
 }
 
 @media (max-width:425px){
+  #bm{
+    margin-top: 50px;
+  }
   .projects-container>ul{
     margin-left: -20px;
   }
+
+  #top-button{
+    margin-left: -15px;
+  }
+
+  .project-content{
+    margin-left: 20px;
+    padding-right: 10px;
+  }
+  .project-title{
+    font-size: 40px;
+  }
+  .project-meta{
+    font-size: 15px;
+  }
+  .project-time{
+    font-size: 10px;
+  }
+  .project-markdown>h1{
+      font-size: 35px;
+    }
+  .project-markdown>h4{
+      font-size: 20px;
+    }
+}
+
+@media (max-width:375px){
+  .project-markdown>p{
+    font-size: .8rem;
+  }
+  .project-title{
+    font-size: 30px;
+  }
+  .project-markdown>h1{
+      font-size: 25px;
+    }
+  .project-markdown>h4{
+      font-size: 15px;
+    }
 
 }
