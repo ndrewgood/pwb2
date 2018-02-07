@@ -8,21 +8,28 @@ body{
   overflow-x: hidden;
 }
 ::-moz-selection { /* Code for Firefox */
-  animation: fontcolorchange 20s;
+  animation: highlightcolorchange 20s;
   animation-iteration-count:infinite;
-    background: rgba(256, 256, 256, 0.996); !important;
+  background: rgba(256, 256, 256, 0.996); !important;
 }
 
 ::-webkit-selection {
-  animation: fontcolorchange 20s;
+  animation: highlightcolorchange 20s;
   animation-iteration-count:infinite;
   background: rgba(256, 256, 256, 0.996); !important;
 }
 
 ::selection {
-  animation: fontcolorchange 20s;
+  animation: highlightcolorchange 20s;
   animation-iteration-count:infinite;
-    background: rgba(256, 256, 256, 0.996); !important;
+  background: rgba(256, 256, 256, 0.996); !important;
+}
+
+@keyframes highlightcolorchange
+{
+  0%   {color: #09fac1;}
+  50%   {color: #00a9ff;}
+  100% {color: #09fac1;}
 }
 
 .main-container {
