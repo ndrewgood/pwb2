@@ -82,19 +82,20 @@ body{
     padding: 20px;
     width: 100%;
     min-height: 100%;
+    border: 3px solid;
 }
 
 @keyframes colorchange
 {
-  0%   {border:3px solid #09fac1;}
-  50%   {border:3px solid #00a9ff;}
-  100% {border:3px solid #09fac1;}
+  0%   {border-color: #09fac1;}
+  50%   {border-color: #00a9ff;}
+  100% {border-color: #09fac1;}
 }
 
 #bm {
   width: 200px;
   height: 200px;
-  border: 2px solid white;
+  border: 3px solid white;
   margin: 0 auto;
   margin-top: 100px;
 }
@@ -144,6 +145,10 @@ body{
   text-decoration: none;
 }
 
+.projects-container a{
+  text-decoration: none;
+}
+
 .projects-container>h1{
   font-weight: 900;
   font-size: 40px;
@@ -159,13 +164,22 @@ body{
 }
 
 .projects-container>ul{
-  margin-left: 40px;
+  margin-left: 20px;
   margin-top: 40px;
   list-style: none;
 }
 
 .projects-container>ul>li{
   padding-bottom: 15px;
+  padding-left: 20px;
+}
+
+.projects-container>ul>li:hover {
+  animation: colorchange 20s;
+  animation-iteration-count:infinite;
+  border-style: solid;
+  border-width: 0px 0px 0px 3px;
+  margin-left:-3px;
 }
 
 .projects-title{
@@ -197,6 +211,28 @@ body{
   margin-top: -40px;
   margin-left: 30px;
 }
+
+.project-back:hover{
+    text-decoration: none;
+    animation: fontcolorchange 20s;
+    animation-iteration-count:infinite;
+}
+
+#top-button{
+    text-decoration: none;
+    display: none;
+    font-size: 30px;
+    background-color: black;
+    border: 0px;
+    animation: fontcolorchange 20s;
+    animation-iteration-count:infinite;
+    position: fixed;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
 
 .project-content{
   margin-left: 100px;
