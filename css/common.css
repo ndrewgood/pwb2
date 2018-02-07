@@ -8,17 +8,20 @@ body{
   overflow-x: hidden;
 }
 ::-moz-selection { /* Code for Firefox */
-    color: rgba(103, 242, 247, 1) !important;
+  animation: fontcolorchange 20s;
+  animation-iteration-count:infinite;
     background: rgba(256, 256, 256, 0.996); !important;
 }
 
 ::-webkit-selection {
-  color: rgba(103, 242, 247, 1) !important;
+  animation: fontcolorchange 20s;
+  animation-iteration-count:infinite;
   background: rgba(256, 256, 256, 0.996); !important;
 }
 
 ::selection {
-    color: rgba(103, 242, 247, 1) !important;
+  animation: fontcolorchange 20s;
+  animation-iteration-count:infinite;
     background: rgba(256, 256, 256, 0.996); !important;
 }
 
