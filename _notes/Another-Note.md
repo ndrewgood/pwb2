@@ -1,7 +1,7 @@
 ---
 layout: default-notes
 title: Another Note
-meta: more
+meta: More
 category: notes
 thumbnail: thumbnails/another-note.png
 description: Duis eget nibh id urna imperdiet tincidunt.

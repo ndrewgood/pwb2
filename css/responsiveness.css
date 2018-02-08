@@ -30,13 +30,14 @@ title: CSS stylesheet
   .index-text>h2{
     font-size: 20px;
   }
-  .project-content{
+  .project-content, .note-back{
     margin-left: 50px;
     margin-top: 80px;
   }
-  .project-back{
+  .project-back, .note-back{
     margin-left: 15px;
   }
+
   #top-button{
     margin-left: 0px;
   }
@@ -47,6 +48,12 @@ title: CSS stylesheet
     margin-left: 0px;
   }
   .projects-container>ul>li{
+    padding-left: 0px;
+  }
+  .notes-container>ul{
+    margin-left: 0px;
+  }
+  .notes-container>ul>li{
     padding-left: 0px;
   }
 }
@@ -63,22 +70,26 @@ title: CSS stylesheet
     margin-left: -20px;
   }
 
+  .notes-container>ul{
+    margin-left: -20px;
+  }
+
   #top-button{
     margin-left: -15px;
   }
 
-  .project-content{
+  .project-content, .note-content{
     margin-left: 20px;
     padding-right: 10px;
     margin-top: 50px;
   }
-  .project-title{
+  .project-title, .note-title{
     font-size: 40px;
   }
-  .project-meta{
+  .project-meta, .note-meta{
     font-size: 15px;
   }
-  .project-time{
+  .project-time, .note-time{
     font-size: 10px;
   }
   .project-markdown>h1{
@@ -87,22 +98,37 @@ title: CSS stylesheet
   .project-markdown>h4{
       font-size: 20px;
     }
+  .note-markdown>h1{
+      font-size: 35px;
+    }
+  .note-markdown>h4{
+      font-size: 20px;
+    }
 }
 
 @media (max-width:375px){
-  .project-content{
+  .project-content, .note-content{
     margin-top: 40px;
   }
   .project-markdown>p{
     font-size: .8rem;
   }
-  .project-title{
+  .project-title, .note-title{
     font-size: 30px;
   }
   .project-markdown>h1{
       font-size: 25px;
     }
   .project-markdown>h4{
+      font-size: 15px;
+    }
+  .note-markdown>p{
+    font-size: .8rem;
+  }
+  .note-markdown>h1{
+      font-size: 25px;
+    }
+  .note-markdown>h4{
       font-size: 15px;
     }
 

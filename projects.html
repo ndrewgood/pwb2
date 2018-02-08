@@ -5,7 +5,7 @@ layout: default
 <div class="projects-container">
   <h1>*Projects</h1>
   <ul>
-    {% for projects in site.posts%}
+    {% for projects in site.projects %}
       <li>
         <a href="{{site.baseurl}}{{projects.url}}">
         <p class="projects-title" >{{ projects.title }}</p>

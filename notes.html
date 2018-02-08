@@ -1,4 +1,17 @@
 ---
 layout: default
 ---
-<p>Notes page</p>
+<div class="notes-container">
+  <h1>*Notes</h1>
+  <ul>
+    {% for notes in site.notes %}
+      <li>
+        <a href="{{site.baseurl}}{{notes.url}}">
+        <p class="notes-title" >{{ notes.title }}</p>
+        <p class="notes-meta">{{ notes.meta }}</p>
+        <p class="notes-description">{{ notes.description }}</p>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

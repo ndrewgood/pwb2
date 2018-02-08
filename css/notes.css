@@ -1,0 +1,149 @@
+---
+title: CSS stylesheet
+---
+
+.notes-container{
+  margin-left: 30px;
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: none;
+}
+
+.notes-container a{
+  text-decoration: none;
+}
+
+.notes-container>h1{
+  font-weight: 900;
+  font-size: 40px;
+  animation: fontcolorchange 20s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes fontcolorchange
+{
+  0%   {color: #09fac1;}
+  50%   {color: #00a9ff;}
+  100% {color: #09fac1;}
+}
+
+.notes-container>ul{
+  margin-left: 20px;
+  margin-top: 40px;
+  list-style: none;
+}
+
+.notes-container>ul>li{
+  padding-bottom: 15px;
+  padding-left: 20px;
+}
+
+.notes-container>ul>li:hover {
+  animation: colorchange 20s;
+  animation-iteration-count:infinite;
+  border-style: solid;
+  border-width: 0px 0px 0px 3px;
+  margin-left:-3px;
+}
+
+.notes-title{
+  color:white;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.notes-meta{
+  color: #537A7A;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: -15px;
+}
+
+.notes-description{
+  color: #537A7A;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: -15px;
+}
+
+.note-back{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 15px;
+  color: #537A7A;
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 30px;
+}
+
+.note-back:hover{
+    text-decoration: none;
+    animation: fontcolorchange 20s;
+    animation-iteration-count:infinite;
+}
+
+#top-button{
+    text-decoration: none;
+    display: none;
+    font-size: 30px;
+    background-color: black;
+    border: 0px;
+    color: #537A7A;
+    position: fixed;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 10px;
+    cursor: pointer;
+    outline: none;
+    height: 0px;
+    width: 0px;
+}
+
+
+.note-content{
+  margin-left: 100px;
+  margin-top: 100px;
+  padding-right: 80px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.note-title{
+  font-family:  'Roboto Mono', monospace;
+  font-weight: 900;
+  font-size: 50px;
+  animation: fontcolorchange 20s;
+  animation-iteration-count:infinite;
+}
+
+.note-meta{
+  font-family:  'Roboto Mono', monospace;
+  font-style: italic;
+  font-size: 20px;
+  color: #537A7A;
+}
+
+.note-time{
+  font-family:  'Roboto Mono', monospace;
+    font-style: italic;
+    font-size: 15px;
+  color: #537A7A;
+  margin-top: -10px;
+}
+
+.note-markdown>h1{
+  font-family:  'Roboto Mono', monospace;
+}
+
+.note-markdown>h4{
+  font-family:  'Roboto Mono', monospace;
+  font-style: italic;
+  color: #537A7A;
+}
+
+.note-markdown>p{
+  margin-top: 10px;
+}
+
+.note-markdown>p>img{
+  width: 100%;
+  height: auto;
+  pointer-events: none
+}

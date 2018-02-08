@@ -1,7 +1,7 @@
 ---
 layout: default-notes
 title: Test Note
-meta: Test
+meta: Notes
 category: notes
 thumbnail: thumbnails/test-note.png
 description: Phasellus ut ex cursus, viverra ante sed, faucibus arcu.

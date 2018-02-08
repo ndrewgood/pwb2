@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="note-container">
+
+
+<p><a class="note-back" href="{{site.baseurl}}/notes.html"><span><</span>back</a></p>
+<button onclick="topFunction()" id="top-button"><span>^</span></button>
+<div class="note-content">
+  <h1 class="note-title"><span>*</span>{{  page.title  }}</h1>
+  <p class="note-meta">{{  page.meta  }}</p>
+  <p class="note-time">{{  page.time  }}</p>
+  <div class="note-markdown">
+
+  {{ page.content }}
+  </div>
+</div>
+</div>
