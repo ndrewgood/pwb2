@@ -48,13 +48,14 @@ title: CSS stylesheet
     margin-left: 0px;
   }
   .projects-container>ul>li{
-    padding-left: 0px;
+    padding-left: -10px;
   }
+
   .notes-container>ul{
     margin-left: 0px;
   }
   .notes-container>ul>li{
-    padding-left: 0px;
+    padding-left: -10px;
   }
 }
 
