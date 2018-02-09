@@ -136,14 +136,25 @@ body{
 
 .sm-icon{
   display: block;
-  background-color: blue;
   height: 25px;
   width: 25px;
   margin-left: 10px;
   margin-right: 10px;
+
 }
 
-.sm-icon>a{
-  width: 100%;
-  height: 100%;
+.sm-icon > svg > path{
+  fill: white;
+}
+
+.sm-icon:hover svg path{
+  animation: colorchangefill 20s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes colorchangefill
+{
+  0%   {fill: #09fac1;}
+  50%   {fill: #00a9ff;}
+  100% {fill: #09fac1;}
 }
