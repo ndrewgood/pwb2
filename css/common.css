@@ -162,3 +162,31 @@ body{
   50%   {fill: #00a9ff;}
   100% {fill: #09fac1;}
 }
+
+.contactme-container {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 30px;
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contactme-email {
+  font-family: 'Roboto Mono', monospace;
+  font-weight:900;
+  font-size: 30px;
+}
+
+.contactme-email > a{
+  text-decoration: none;
+  color: white;
+}
+
+.contactme-email > a:hover{
+  color: #09fac1;
+}
+
+
+.contactme-smalltext {
+  font-size: 10px;
+}
