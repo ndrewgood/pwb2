@@ -14,28 +14,18 @@ body{
 }
 
 ::-moz-selection { /* Code for Firefox */
-  animation: highlightcolorchange 20s;
-  animation-iteration-count:infinite;
+  color: #00baff;
   background: rgba(256, 256, 256, 0.996); !important;
 }
 
 ::-webkit-selection {
-  animation: highlightcolorchange 20s;
-  animation-iteration-count:infinite;
+color: #00baff;
   background: rgba(256, 256, 256, 0.996); !important;
 }
 
 ::selection {
-  animation: highlightcolorchange 20s;
-  animation-iteration-count:infinite;
+color: #00baff;
   background: rgba(256, 256, 256, 0.996); !important;
-}
-
-@keyframes highlightcolorchange
-{
-  0%   {color: #09fac1;}
-  50%   {color: #00a9ff;}
-  100% {color: #09fac1;}
 }
 
 .main-container {
@@ -84,19 +74,10 @@ body{
 .main-content-box {
     border-radius: 45px;
     border: 3px solid #67f2f7;
-    animation: colorchange 20s;
-    animation-iteration-count:infinite;
+    border-color: #00baff;
     padding: 20px;
     width: 100%;
     min-height: 100%;
-    border: 3px solid;
-}
-
-@keyframes colorchange
-{
-  0%   {border-color: #09fac1;}
-  50%   {border-color: #00a9ff;}
-  100% {border-color: #09fac1;}
 }
 
 #bm {
@@ -152,22 +133,14 @@ body{
 }
 
 .sm-icon:hover svg path{
-  animation: colorchangefill 20s;
-  animation-iteration-count:infinite;
-}
-
-@keyframes colorchangefill
-{
-  0%   {fill: #09fac1;}
-  50%   {fill: #00a9ff;}
-  100% {fill: #09fac1;}
+  fill: #00baff;
 }
 
 .contactme-container {
   font-family: 'Open Sans', sans-serif;
   padding-top: 30px;
-  display: table;
-  margin: 0 auto;
+  display: block;
+  margin: auto;
   text-align: center;
 }
 
@@ -183,10 +156,15 @@ body{
 }
 
 .contactme-email > a:hover{
-  color: #09fac1;
+  color: #00baff;
 }
 
 
 .contactme-smalltext {
   font-size: 10px;
+}
+
+.contactme-footer {
+vertical-align: bottom;
+  font-size: 13px;
 }

@@ -17,15 +17,7 @@ title: CSS stylesheet
 .projects-container>h1{
   font-weight: 900;
   font-size: 40px;
-  animation: fontcolorchange 20s;
-  animation-iteration-count:infinite;
-}
-
-@keyframes fontcolorchange
-{
-  0%   {color: #09fac1;}
-  50%   {color: #00a9ff;}
-  100% {color: #09fac1;}
+  color: #00baff;
 }
 
 .projects-container>ul{
@@ -40,8 +32,7 @@ title: CSS stylesheet
 }
 
 .projects-container>ul>li:hover {
-  animation: colorchange 20s;
-  animation-iteration-count:infinite;
+  border-color: #00baff;
   border-style: solid;
   border-width: 0px 0px 0px 3px;
   margin-left:-3px;
@@ -54,7 +45,7 @@ title: CSS stylesheet
 }
 
 .projects-meta{
-  color: #537A7A;
+  color: #488196;
   font-size: 20px;
   font-weight: 500;
   font-style: italic;
@@ -62,7 +53,7 @@ title: CSS stylesheet
 }
 
 .projects-description{
-  color: #537A7A;
+  color: #488196;
   font-size: 15px;
   font-family: 'Open Sans', sans-serif;
   margin-top: -15px;
@@ -71,7 +62,7 @@ title: CSS stylesheet
 .project-back{
   font-family: 'Roboto Mono', monospace;
   font-size: 15px;
-  color: #537A7A;
+  color: #488196;
   position: absolute;
   margin-top: -40px;
   margin-left: 30px;
@@ -79,8 +70,7 @@ title: CSS stylesheet
 
 .project-back:hover{
     text-decoration: none;
-    animation: fontcolorchange 20s;
-    animation-iteration-count:infinite;
+    color: #00baff;
 }
 
 #top-button{
@@ -89,7 +79,7 @@ title: CSS stylesheet
     font-size: 30px;
     background-color: black;
     border: 0px;
-    color: #537A7A;
+    color: #488196;
     position: fixed;
     font-family: 'Roboto Mono', monospace;
     margin-left: 10px;
@@ -119,14 +109,14 @@ title: CSS stylesheet
   font-family:  'Roboto Mono', monospace;
   font-style: italic;
   font-size: 20px;
-  color: #537A7A;
+  color: #488196;
 }
 
 .project-time{
   font-family:  'Roboto Mono', monospace;
     font-style: italic;
     font-size: 15px;
-  color: #537A7A;
+  color: #488196;
   margin-top: -10px;
 }
 
@@ -137,7 +127,7 @@ title: CSS stylesheet
 .project-markdown>h4{
   font-family:  'Roboto Mono', monospace;
   font-style: italic;
-  color: #537A7A;
+  color: #488196;
 }
 
 .project-markdown>p{
