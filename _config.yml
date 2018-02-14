@@ -1,5 +1,5 @@
 markdown: kramdown
-baseurl: /pwb2
+# baseurl: /pwb2
 exclude: ['README.md']
 collections:
   notes:
