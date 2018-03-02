@@ -7,6 +7,9 @@ title: CSS stylesheet
 /*    with love, Andrew                    */
 /*          :*                             */
 
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Roboto+Mono:500i,700');
+
 body{
   background-color: black;
   color: white;
@@ -97,7 +100,7 @@ color: #00baff;
   margin: 0 auto;
   margin-top: 20px;
   font-family: 'Roboto Mono', monospace;
-  font-weight:900;
+  font-weight:700;
   text-align: center;
 }
 
@@ -146,7 +149,7 @@ color: #00baff;
 
 .contactme-email {
   font-family: 'Roboto Mono', monospace;
-  font-weight:900;
+  font-weight:700;
   font-size: 30px;
 }
 

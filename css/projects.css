@@ -15,7 +15,7 @@ title: CSS stylesheet
 }
 
 .projects-container>h1{
-  font-weight: 900;
+  font-weight: 700;
   font-size: 40px;
   color: #00baff;
 }
@@ -41,7 +41,7 @@ title: CSS stylesheet
 .projects-title{
   color:white;
   font-size: 30px;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .projects-meta{
@@ -99,7 +99,7 @@ title: CSS stylesheet
 
 .project-title{
   font-family:  'Roboto Mono', monospace;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 50px;
   animation: fontcolorchange 20s;
   animation-iteration-count:infinite;
