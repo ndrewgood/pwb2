@@ -166,3 +166,11 @@ color: #00baff;
 vertical-align: bottom;
   font-size: 13px;
 }
+
+#jbd{
+    margin: 0 auto;
+}
+
+#jbd > svg {
+  fill: #00baff;
+}
