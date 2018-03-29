@@ -129,7 +129,16 @@ title: CSS stylesheet
 
 .note-markdown>p{
   margin-top: 10px;
-  font-size: 1.15rem;
+  font-size: 1rem;
+}
+
+.note-markdown a{
+  color: #00baff;
+  text-decoration: none;
+}
+
+.note-markdown a:hover{
+  text-decoration: line-through;
 }
 
 .note-markdown>p>img{

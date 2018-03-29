@@ -130,7 +130,16 @@ title: CSS stylesheet
 
 .project-markdown>p{
   margin-top: 10px;
-  font-size: 1.15rem;
+  font-size: 1rem;
+}
+
+.project-markdown a{
+  color: #00baff;
+  text-decoration: none;
+}
+
+.project-markdown a:hover{
+  text-decoration: line-through;
 }
 
 .project-markdown>p>img{
