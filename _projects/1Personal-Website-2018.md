@@ -57,7 +57,7 @@ Here's some Jekyll tutorials I watched to get familiar with it:
 
 [DevTips Jekyll Tutorial Series](https://www.youtube.com/watch?v=sJhhLvW-Xvg&list=PLqGj3iMvMa4KeBN2krBtcO3U90_7SOl-A)
 
-Lastly, i think its important to mention that this wasn't my first attempt at making a personal website. Honestly I think it's **attempt #8**, my first attempt being 2+ years ago. And although those projects never took flight, I did learn a lot from each one of them.
+Lastly, I think its important to mention that this wasn't my first attempt at making a personal website. Honestly I think it's **attempt #8**, my first attempt being 2+ years ago. And although those projects never took flight, I did learn a lot from each one of them.
 
 ![previous sites i made][previoussites]{:title="One of the previous websites I made which is broken now."}
 
