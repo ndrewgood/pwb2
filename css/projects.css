@@ -71,27 +71,10 @@ title: CSS stylesheet
     color: #00baff;
 }
 
-#top-button{
-    text-decoration: none;
-    display: none;
-    font-size: 30px;
-    background-color: black;
-    border: 0px;
-    color: #488196;
-    position: fixed;
-    font-family: 'Roboto Mono', monospace;
-    margin-left: 10px;
-    cursor: pointer;
-    outline: none;
-    height: 0px;
-    width: 0px;
-}
-
-
 .project-content{
-  margin-left: 130px;
+  margin-left: 200px;
   margin-top: 100px;
-  padding-right: 120px;
+  padding-right: 200px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -99,8 +82,7 @@ title: CSS stylesheet
   font-family:  'Roboto Mono', monospace;
   font-weight: 700;
   font-size: 50px;
-  animation: fontcolorchange 20s;
-  animation-iteration-count:infinite;
+  color: #00baff;
 }
 
 .project-meta{
@@ -124,6 +106,7 @@ title: CSS stylesheet
 
 .project-markdown>h4{
   font-family:  'Roboto Mono', monospace;
+  font-size: 20px;
   font-style: italic;
   color: #488196;
 }
@@ -143,7 +126,17 @@ title: CSS stylesheet
 }
 
 .project-markdown>p>img{
-  width: 100%;
+  width: auto;
   height: auto;
-  pointer-events: none
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  padding-bottom: 30px;
+}
+
+#lastimg{
+  padding-bottom: 80px;
 }

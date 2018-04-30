@@ -71,22 +71,6 @@ title: CSS stylesheet
     color: #00baff;
 }
 
-#top-button{
-    text-decoration: none;
-    display: none;
-    font-size: 30px;
-    background-color: black;
-    border: 0px;
-    color: #488196;
-    position: fixed;
-    font-family: 'Roboto Mono', monospace;
-    margin-left: 10px;
-    cursor: pointer;
-    outline: none;
-    height: 0px;
-    width: 0px;
-}
-
 
 .note-content{
   margin-left: 130px;
@@ -123,6 +107,7 @@ title: CSS stylesheet
 
 .note-markdown>h4{
   font-family:  'Roboto Mono', monospace;
+  font-size: 20px;
   font-style: italic;
   color: #488196;
 }

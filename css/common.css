@@ -185,3 +185,19 @@ vertical-align: bottom;
 #jbd > svg {
   fill: #00baff;
 }
+
+#top-button{
+    text-decoration: none;
+    display: none;
+    font-size: 30px;
+    background-color: black;
+    border: 0px;
+    color: #488196;
+    position: fixed;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 30px;
+    cursor: pointer;
+    outline: none;
+    height: 0px;
+    width: 0px;
+}

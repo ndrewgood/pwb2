@@ -23,25 +23,21 @@ title: CSS stylesheet
 /* Large devices (large desktops, 1200px and down) */
 /* @media (max-width: @screen-lg-min) { ... } */
 
-@media (max-width: 768px) {
-  .index-text>h1{
-    font-size: 40px;
-  }
-  .index-text>h2{
-    font-size: 20px;
-  }
-  .project-content, .note-back{
-    margin-left: 50px;
-    margin-top: 80px;
-  }
-  .project-back, .note-back{
-    margin-left: 15px;
-  }
 
-  #top-button{
-    margin-left: 0px;
+@media (max-width:1200px){
+  .project-content{
+    margin-left: 110px;
+    padding-right: 120px;
   }
 }
+
+@media (max-width: 992px) {
+  .project-markdown>p>img{
+    width: 100%;
+    }
+}
+
+
 
 @media (max-width:1024px){
   .projects-container>ul{
@@ -57,7 +53,34 @@ title: CSS stylesheet
   .notes-container>ul>li{
     padding-left: -10px;
   }
+  .project-content{
+    margin-left: 150px;
+    margin-top: 100px;
+    padding-right: 120px;
+  }
+
 }
+
+@media (max-width: 768px) {
+  .index-text>h1{
+    font-size: 40px;
+  }
+  .index-text>h2{
+    font-size: 20px;
+  }
+  .project-content, .note-content{
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-right: 0px;
+    padding-right: 50px;
+  }
+  .project-back, .note-back{
+    margin-left: 15px;
+  }
+
+  #top-button{
+    margin-left: 0px;
+  }
 
 @media (max-width:425px){
   .main-container{
@@ -76,12 +99,12 @@ title: CSS stylesheet
   }
 
   #top-button{
-    margin-left: -15px;
+    margin-left: -25px;
   }
 
   .project-content, .note-content{
     margin-left: 20px;
-    padding-right: 10px;
+    margin-right: 10px;
     margin-top: 50px;
   }
   .project-title, .note-title{
@@ -104,6 +127,9 @@ title: CSS stylesheet
     }
   .note-markdown>h4{
       font-size: 20px;
+    }
+  .project-markdown>p>img{
+    width: 100%;
     }
 }
 
