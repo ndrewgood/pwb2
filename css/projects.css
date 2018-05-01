@@ -67,7 +67,7 @@ title: CSS stylesheet
 }
 
 .project-back:hover{
-    text-decoration: none;
+    text-decoration: line-through;
     color: #00baff;
 }
 

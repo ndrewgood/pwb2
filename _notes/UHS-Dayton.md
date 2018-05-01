@@ -8,7 +8,7 @@ description: "Presenting their 2018 show, We All Fall Down..."
 time: 2-07-18
 ---
 
-#### From April 19 to April 21, drumline took over the city of Dayton, Ohio to display some of the most talented and hard working percussion ensembles in the world.
+#### Every year in the middle of April, drumline takes over the city of Dayton, Ohio to display some of the most talented and hard working percussion ensembles in the world.
 
 quick info about wgi
 
