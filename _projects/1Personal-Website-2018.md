@@ -5,7 +5,7 @@ meta: Design + Coding
 category: projects
 thumbnail:
 description: it's what you're looking at right now!
-time: 2-14-2018
+time: March 2018
 ---
 
 # The Idea
