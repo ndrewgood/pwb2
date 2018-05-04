@@ -65,7 +65,7 @@ Lastly, I think its important to mention that this wasn't my first attempt at ma
 
 # The Build
 
-After having the design for the website finalized(which I will end up changing anyways), I started building it with [Bootstrap](https://getbootstrap.com/). Bootstrap html/css was the only form of coding which I could say I had experience with prior to building this website, so it was easy for me to jump into building the framework of the website.
+After having the design for the website finalized(which I will end up changing anyway), I started building it with [Bootstrap](https://getbootstrap.com/). Bootstrap html/css was the only form of coding which I could say I had experience with prior to building this website, so it was easy for me to jump into building the framework of the website.
 
 This was the first project which I prioritized responsiveness over all else when coding. I realized that no matter how professional or interesting a website might look, if it doesn't scale then it will make the whole thing seem amateur.
 
