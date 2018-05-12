@@ -8,7 +8,9 @@ description: it's what you're looking at right now!
 time: March 2018
 ---
 
-# The Idea
+taken down temporarily :-(
+
+<!-- # The Idea
 
 
 For as long as I can remember, I have always loved two things: **creating** and **technology**. The technology side I get from my dad, who has been putting me in front of a computer and showing me the importance and power of technology my entire life. The creating side I get from my mom, who lives to create  activities and games for the preschoolers she teaches; always choosing to make something herself than to use someone else's.
@@ -96,4 +98,4 @@ As for the future of the website, I'll continue to adjust and tweak it from time
 
 ![homepage mobile][homepagemobile]{:id="lastimg" title="Mobile version of the home page"}
 
-[homepagemobile]: https://thumbs.gfycat.com/AngelicCheeryHen-size_restricted.gif
+[homepagemobile]: https://thumbs.gfycat.com/AngelicCheeryHen-size_restricted.gif -->
