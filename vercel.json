@@ -1,12 +1,8 @@
 {
     "build": {
         "env": {
-<<<<<<< HEAD
             "JEKYLL_ENV": "production",
             "RUBY_VERSION": "2.6.10"
-=======
-            "JEKYLL_ENV": "production"
->>>>>>> b3ac980... fix for vercel?
         }
     },
     "buildCommand": "jekyll build",
