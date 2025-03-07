@@ -32,5 +32,8 @@ end
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 gem "webrick", "~> 1.7"  # Required for Ruby >= 3.0
+<<<<<<< HEAD
 gem "bundler", "~> 2.4.0"
 gem "kramdown-parser-gfm"
+=======
+>>>>>>> b3ac980... fix for vercel?
