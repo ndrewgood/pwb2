@@ -20,7 +20,7 @@ jobs:
         run: bundle exec jekyll build
         
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@cc9f55d190e3d7341be8cb44e426d16c0dd8116d # v4.3.1
         with:
           name: site
           path: _site 
