@@ -5,7 +5,7 @@
             "RUBY_VERSION": "2.6.10"
         }
     },
-    "buildCommand": "gem install bundler -v '2.3.26' && bundle _2.3.26_ install && bundle exec jekyll build",
+    "buildCommand": null,
     "outputDirectory": "_site",
     "framework": "jekyll"
 } 
